@@ -1,0 +1,134 @@
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+   background-color: #494949;/*#87CEEB; */
+}
+
+#welcome-section {
+  display: flex;
+  text-align: center;
+  height: 100px;
+  flex-direction: column;
+  padding-top: 350px;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 50px;
+font-style: 'Lato';
+}
+h3 {
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  overflow: hidden;
+  position: fixed;
+
+}
+#navbar a {
+  float: right;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 18px;
+  transition:background .5s ease, color .5s ease;
+}
+
+#navbar a:hover {
+  background-color:  white  ;
+}
+
+#Contact {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.column {
+  float: left;
+  margin-left: 45px;
+  margin-top: 50px;
+  width: 45%;
+  height: 400px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div {
+/*  background-color: blue;*/
+  margin-top: 600px;
+}
+
+.github {
+  margin-right: 40px;
+  font-size: 25px;
+  color: white;
+}
+
+.mail {
+  padding-right: 40px;
+  font-size: 25px;
+  color: white;
+}
+
+.Contact {
+  font-size: 50px;
+  color: white;
+}
+
+#Contact {
+  margin-top: 400px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+    flex: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
