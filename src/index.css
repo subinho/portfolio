@@ -14,14 +14,23 @@ body {
   background-color: #121212;
   color: #fff;
   line-height: 1.5;
-  width: 70vw;
   margin: auto;
+}
+
+html {
+  font-size: 10px;
 }
 
 .full_page {
   height: 100vh;
 }
 
-.padding_page {
+.padd_page {
   padding: 5rem 0;
+}
+
+.section_container {
+  max-width: 124rem;
+  margin: 0 auto;
+  width: 90%;
 }
