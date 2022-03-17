@@ -12,6 +12,7 @@ const Introduction = () => {
             <a href='#'>ABOUT</a>
             <a href='#'>CONTACT</a>
         </div>
+        <div className='scroll_down'></div>
     </section>
   )
 }
