@@ -1,0 +1,32 @@
+.about_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15rem;
+}
+
+.about_container h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about_container--desc {
+    font-size: 2rem;
+}
+
+.about_container--desc p {
+    margin-bottom: 2rem;
+}
+
+.about_container--experience {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.about_container--experience p {
+    padding: 1rem;
+    background: #8080800d;
+    border-radius: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
