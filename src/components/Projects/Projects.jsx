@@ -5,7 +5,7 @@ import data from './data'
 const Projects = () => {
   return (
       <section className='projects padd_page'>
-        <div className='section_container'>
+        <div className='content_container'>
             <h2>Projects</h2>
             <div className='projects_container'>
                 {
