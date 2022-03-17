@@ -21,6 +21,12 @@ html {
   font-size: 10px;
 }
 
+html h2 {
+    text-align: center;
+    font-size: clamp(1.5rem, 6vw, 3rem);
+    margin-bottom: 3rem;
+}
+
 .full_page {
   height: 100vh;
 }

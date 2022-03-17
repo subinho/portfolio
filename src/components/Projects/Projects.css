@@ -1,11 +1,3 @@
-
-
-.projects h2 {
-    text-align: center;
-    font-size: clamp(1.5rem, 6vw, 3rem);
-    margin-bottom: 3rem;
-}
-
 .projects_container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
