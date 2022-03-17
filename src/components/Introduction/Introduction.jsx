@@ -3,10 +3,10 @@ import './Introduction.css'
 
 const Introduction = () => {
   return (
-    <section className='introduction_container full_page'>
+    <section className='introduction full_page'>
         <h1>Štěpán Šubrt</h1>
         <p>WEB DEVELOPER</p>
-        <div className='introduction_container--nav'>
+        <div className='introduction--nav'>
             <a href='#'>HOME</a>
             <a href='#'>PROJECTS</a>
             <a href='#'>ABOUT</a>
