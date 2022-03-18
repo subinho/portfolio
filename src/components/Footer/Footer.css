@@ -1,0 +1,32 @@
+.footer {
+    background-color: #000000;
+    text-align: center;
+    padding:3rem;
+    margin: 0 auto;
+}
+
+.footer_container {
+    display:flex;
+    margin: 4rem auto;
+    justify-content: space-around;
+}
+
+.footer--me h3 {
+    font-size: 3rem;
+}
+
+.footer--me p {
+    font-size: 1.5rem;
+}
+
+.footer--nav {
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+
+.footer--nav a {
+    color: #b3b3b3;
+}
