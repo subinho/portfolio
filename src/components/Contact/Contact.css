@@ -1,0 +1,33 @@
+form {
+    max-width:80rem;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid;
+    resize: none;
+    color: #fff;
+    margin: 1rem 0 1rem 0;
+}
+
+form button {
+    padding: 2rem 6rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: #28282826;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}   
+
+.contact--socials {
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
