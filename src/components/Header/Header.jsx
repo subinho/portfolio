@@ -1,41 +1,57 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import './Header.css'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+    let navbarRef = useRef();
 
     const toggleNav = () => {
         setToggleMenu(!toggleMenu);
     }
 
     useEffect(() => {
+        // tracking screen width, bcs navbar doesn't show up otherwise
         const changeWidth = () => {
             setScreenWidth(window.innerWidth)
         }
 
         window.addEventListener('resize', changeWidth);
 
+        // closing navbar when clicking outside
+        let handler = event => {
+            if (!navbarRef.current.contains(event.target)) {
+                setToggleMenu(false);
+            }
+        }
+
+        document.addEventListener('mousedown', handler)
+
         return () => {
             window.removeEventListener('resize', changeWidth)
+            document.removeEventListener('mousedown', handler)
         }
     }, [])
+
   return (
-      <headera>
-        <section className="header">
-            <nav>
+      <header>
+        <section>
+            <nav ref={navbarRef} className='navbar'>
                 { (toggleMenu || screenWidth > 1024) &&
-                    <ul className="list">
-                        <li className="items"><a href='#introduction'>HOME</a></li>
-                        <li className="items"><a href='#'>PROJECTS</a></li>
-                        <li className="items"><a href='#'>ABOUT</a></li>
-                        <li className="items"><a href='#'>CONTACT</a></li>
+                    <ul className="navbar--list">
+                        <li className="list--item"><a href='#' className='link'>HOME</a></li>
+                        <li className="list--item"><a href='#' className='link'>PROJECTS</a></li>
+                        <li className="list--item"><a href='#' className='link'>ABOUT</a></li>
+                        <li className="list--item"><a href='#' className='link'>CONTACT</a></li>
+                        <div className="animation"></div>
                     </ul>
                 }
-                    <button onClick={toggleNav} className="btn">BTN</button>
+                    <button onClick={toggleNav} className="btn-mobile"><AiOutlineMenu size='2em'/></button>
             </nav>
         </section>
-      </headera>
+      </header>
   )
 }
 
