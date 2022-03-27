@@ -10,7 +10,7 @@
 }
 
 .about_container--desc {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .about_container--desc p {
@@ -30,4 +30,5 @@
     font-weight: bold;
     letter-spacing: 1px;
     cursor: default;
+    font-size: 1.6rem;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -10,7 +11,6 @@ const Footer = () => {
                 <h3>Štěpán Šubrt</h3>
                 <p>WEB DEVELOPER</p>
             </div>
-
             
             <ul className="footer--nav">
                 <li><a href='#'>HOME</a></li>
@@ -19,6 +19,12 @@ const Footer = () => {
                 <li><a href='#'>CONTACT</a></li>
             </ul>
 
+            <ul className="footer--contact">
+              <AiOutlineMail />
+              <AiFillGithub />
+              <AiFillLinkedin />
+            </ul>
+            
           </div>
       </section>
   )
