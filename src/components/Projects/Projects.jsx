@@ -10,8 +10,8 @@ const Projects = () => {
             <h2>Projects</h2>
             <div className='projects--container'>
                 {
-                    data.map(({image, title, github, live}) => (
-                        <div className='project'>
+                    data.map(({image, title, github, live}, index) => (
+                        <div className='project' key={index}>
                             <div className="project--info">
                                 <h3>{title}</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, aliquam! Voluptate, nostrum quos natus illo facilis molestias autem accusantium, asperiores possimus, enim aspernatur quam ullam nisi nemo corporis dicta non!</p>
