@@ -2,6 +2,7 @@
     background-color: #000;
     text-align: center;
     padding: 2rem;
+    color: #fff;
 }
 
 .footer--me h3 {
@@ -18,17 +19,24 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
+    padding: 2rem;
+    border-bottom: 2px solid;
 }
 
-.footer--nav a {
+.footer--nav li a {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+
 }
 
 .footer--contact {
-    font-size: 2rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
+}
+
+.footer--contact a {
+    color: #fff;
+    font-size: 2.4rem;
 }
