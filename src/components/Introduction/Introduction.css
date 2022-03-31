@@ -6,21 +6,24 @@
 
 .introduction--main h1 {
     font-size: clamp(4.2rem, 9vw, 6rem);
+    font-weight: 500;
 }
 
 .introduction--main h3 {
     font-size: clamp(2.6rem, 2vw, 3.6rem);
     letter-spacing: 0.2rem;    
+    font-weight: 400;
 }
 
 .introduction--main p {
     font-size: clamp(1.6rem, 2vw, 3rem);
     letter-spacing: 0.2rem;    
+    color: gray;
 }
 
 .btn-primary {
     padding: 2rem 6rem;
-    background-color: #2f2e41;
+    background-color: var(--clr--btn-primary);
     font-weight: bold;
     margin-top: 2rem;
     transition: 0.5s;
@@ -33,6 +36,7 @@
 
 .btn-primary a {
     color: #fff;
+    font-weight: 500;
 }
 
 .btn-primary::before {
@@ -42,7 +46,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    border: 2px solid #2f2e41;
+    border: 2px solid var(--clr--btn-primary);
     transition: top, left, right, bottom, .1s ease-in-out;
 }
 
@@ -70,7 +74,7 @@
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid #fff;
+    border: 2px solid;
     height: 15px;
     width: 15px;
     transform: translate(-50%, -50%) rotate(45deg);
