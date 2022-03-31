@@ -5,20 +5,20 @@ form {
 
 input, textarea {
     width: 100%;
-    padding: 2rem;
+    padding: 1.6rem;
     border-radius: 0.5rem;
     background: transparent;
     border: 1px solid;
     resize: none;
-    color: #fff;
-    margin: 1rem 0 1rem 0;
+    color: var(--clr--text-primary);
+    margin: 1rem 0;
 }
 
 form button {
     padding: 2rem 6rem;
     text-align: center;
     border-radius: 0.5rem;
-    background: #2f2e41;
+    background: var(--clr--btn-primary);
     color: #fff;
     font-weight: bold;
     cursor: pointer;
