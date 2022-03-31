@@ -39,35 +39,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
-{/* 
-                //Socials
-                <div className="contact--socials">
-
-                  <div className='contact--social'>
-                    <AiOutlineMail color={'white'} size={'4rem'}/>
-                    <p>stepansubrt@icloud.com</p>
-                    <a href='mailto:stepansubrt@icloud.com' target='_blank'>Send a message</a>
-                  </div>
-                  <div className='contact--social'>
-                    <BsMessenger color={'white'} size={'4rem'}/>
-                    <p>Štěpán Šubrt</p>
-                    <a href='https://m.me/stepan.subrt.52' target='_blank'>Send a message</a>
-                  </div>
-                  <div className='contact--social'>
-                    <AiFillGithub color={'white'} />
-                    <p>@subinho_</p>
-                    <a href='https://github.com/subinho' target='_blank'>Send a message</a>
-                  </div> 
-                  <div className='contact--social'>
-                    <AiFillLinkedin color={'white'} size={'4rem'}/>
-                    <p>Štěpán Šubrt</p>
-                    <a href='#' target='_blank'>Send a message</a>
-                  </div>
-                  <div className='contact--social'>
-                    <AiOutlineWhatsApp color={'white'} size={'4rem'}/>
-                    <p>+420 774 237 299</p>
-                    <a href='https://api.whatsapp.com/send?phone=+420774237299' target='_blank'>Send a message</a>
-                  </div>
-              </div> */}
