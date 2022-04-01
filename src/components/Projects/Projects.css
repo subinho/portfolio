@@ -33,13 +33,16 @@
 
 .project--links a {
     padding: .3rem .5rem;
-    /* background: var(--clr--btn-primary); */
     border: 1px solid var(--clr--btn-primary);
     color: var(--clr--text-primary);
     font-weight: 500;
     margin-right: 2rem;
     font-size: 1.6rem;
     border-radius: 5px;
+}
+
+.project--links a:hover {
+    background-color: var(--clr--btn-primary);
 }
 
 .project--image {
