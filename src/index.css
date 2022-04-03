@@ -2,8 +2,8 @@
 :root {
   --clr--text-primary: #000;
   --clr--background-primary: #fff;
-  --clr--background-secondary: #8080800d;
-  --clr--btn-primary: #2f2e41;
+  --clr--background-secondary: rgba(0,0,0, .1);
+  --clr--btn-primary: #3f3d56;
 }
 
 * {
@@ -47,4 +47,3 @@ html h2 {
   margin: 0 auto;
   width: 90%;
 }
-
