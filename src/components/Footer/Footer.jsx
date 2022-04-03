@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import { AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+// import { AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import { BsGithub, BsLinkedin, BsMessenger, BsWhatsapp} from 'react-icons/bs'
+import { AiOutlineMail } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -20,9 +22,11 @@ const Footer = () => {
               </ul>
 
               <div className="footer--contact">
-                <a href='mailto:stepansubrt@icloud.com' target='_blank'><AiOutlineMail /></a>
-                <a href='https://github.com/subinho' target='_blank'><AiFillGithub /></a>
-                <a href='#'><AiFillLinkedin /></a>
+                <a href='#' target='_blank'><BsLinkedin /></a>
+                <a href='https://github.com/subinho' target='_blank'><BsGithub /></a>
+                <a href='mailto:stepansubrt@icloud.com'><AiOutlineMail /></a>
+                <a href='#' target='_blank'><BsMessenger /></a>
+                <a href='#' target='_blank'><BsWhatsapp /></a>
               </div>
               
             </div>
