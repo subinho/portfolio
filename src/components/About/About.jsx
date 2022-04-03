@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import image from '../../images/about.svg'
+
 const About = () => {
   return (
       <section className='about padd_page'>
