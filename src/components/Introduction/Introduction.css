@@ -160,6 +160,9 @@
     .introduction--image {
         margin-bottom: 5rem;
     }
+    .introduction--socials {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px) {
