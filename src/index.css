@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 :root {
   --clr--text-primary: #000;
+  --clr--text-secondary: #333333;
+  --clr--white: #fff;
   --clr--background-primary: #fff;
   --clr--background-secondary: rgba(0,0,0, .1);
   --clr--btn-primary: #3f3d56;
