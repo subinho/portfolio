@@ -39,7 +39,6 @@
     height: 2px;
     background-color: var(--clr--btn-primary);
     transition: .1s;
-    /* cubic-bezier(0.075, .82, .165, 1) */
     opacity: 0;
 }
 
