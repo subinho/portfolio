@@ -5,7 +5,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import { FiExternalLink } from 'react-icons/fi'
 const Projects = () => {
   return (
-      <section className='projects padd_page'>
+      <section className='projects padd_page' id='projects'>
         <div className='content_container'>
             <h2>Projects</h2>
             <div className='projects--container'>

@@ -21,7 +21,7 @@ const Contact = () => {
 
 
   return (
-      <section className='contact padd_page'>
+      <section className='contact padd_page' id='contact'>
           <div className="content_container">
               <h2>Contact</h2>
 
