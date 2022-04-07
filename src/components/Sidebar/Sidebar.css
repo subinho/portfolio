@@ -1,0 +1,48 @@
+.introduction--socials {
+    position: fixed;
+    left: 0;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px rgb(0, 0, 0, .3);
+    padding: .5rem;
+}
+
+.introduction--socials a {
+    color: black;
+    border-radius: 50%;
+    padding:1.5rem;
+    line-height: 20px;
+    transition: all 0.3s;
+}
+
+.introduction--socials a:nth-child(1):hover {
+    background-color: #0e76a8;
+    color: var(--clr--white);
+}
+
+.introduction--socials a:nth-child(2):hover {
+    background-color: #171515;
+    color: var(--clr--white);
+}
+
+.introduction--socials a:nth-child(3):hover {
+    background-color: #c5221f;;
+    color: var(--clr--white);
+}
+
+.introduction--socials a:nth-child(4):hover {
+    background: linear-gradient(to right top, #0088FF -57%, #A033FF 70%, #FF5C87);
+    color: var(--clr--white);
+}
+
+.introduction--socials a:nth-child(5):hover {
+    background-color: #25D366;
+    color: var(--clr--white);
+}
+
+@media screen and (max-width: 1400px) {
+    .introduction--socials {
+        display: none;
+    }
+}
