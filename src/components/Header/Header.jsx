@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import './Header.css'
+import { Link } from 'react-scroll'
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const Header = () => {
@@ -41,10 +42,18 @@ const Header = () => {
             <nav ref={navbarRef} className='navbar'>
                 { (toggleMenu || screenWidth > 1024) &&
                     <ul className="navbar--list">
-                        <li className="list--item"><a href='#home' className='link active'>HOME</a></li>
-                        <li className="list--item"><a href='#projects' className='link'>PROJECTS</a></li>
-                        <li className="list--item"><a href='#about' className='link'>ABOUT</a></li>
-                        <li className="list--item"><a href='#contact' className='link'>CONTACT</a></li>
+                        <li className="list--item">
+                            <Link to="home" spy={true} smooth={true} offset={0} duration={500} className='link active'>HOME</Link>
+                        </li>
+                        <li className="list--item">
+                            <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='link'>PROJECTS</Link>
+                        </li>
+                        <li className="list--item">
+                            <Link to="about" spy={true} smooth={true} offset={50} duration={500} className='link'>ABOUT</Link>
+                        </li>
+                        <li className="list--item">
+                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='link'>CONTACT</Link>
+                        </li>
                         <div className="animation"></div>
                     </ul>
                 }
