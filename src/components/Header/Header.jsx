@@ -41,10 +41,10 @@ const Header = () => {
             <nav ref={navbarRef} className='navbar'>
                 { (toggleMenu || screenWidth > 1024) &&
                     <ul className="navbar--list">
-                        <li className="list--item"><a href='#' className='link'>HOME</a></li>
-                        <li className="list--item"><a href='#' className='link'>PROJECTS</a></li>
-                        <li className="list--item"><a href='#' className='link'>ABOUT</a></li>
-                        <li className="list--item"><a href='#' className='link'>CONTACT</a></li>
+                        <li className="list--item"><a href='#home' className='link active'>HOME</a></li>
+                        <li className="list--item"><a href='#projects' className='link'>PROJECTS</a></li>
+                        <li className="list--item"><a href='#about' className='link'>ABOUT</a></li>
+                        <li className="list--item"><a href='#contact' className='link'>CONTACT</a></li>
                         <div className="animation"></div>
                     </ul>
                 }
