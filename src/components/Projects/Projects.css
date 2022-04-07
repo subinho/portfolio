@@ -43,7 +43,7 @@
 
 .project--links a:hover {
     background-color: var(--clr--btn-primary);
-    color: #fff;
+    color: var(--clr--white);
 }
 
 .project--image {

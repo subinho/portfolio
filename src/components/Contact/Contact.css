@@ -19,7 +19,7 @@ form button {
     text-align: center;
     border-radius: 0.5rem;
     background: var(--clr--btn-primary);
-    color: #fff;
+    color: var(--clr--white);
     font-weight: bold;
     cursor: pointer;
 }   
