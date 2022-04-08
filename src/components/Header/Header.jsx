@@ -43,7 +43,7 @@ const Header = () => {
                 { (toggleMenu || screenWidth > 1024) &&
                     <ul className="navbar--list">
                         <li className="list--item">
-                            <Link to="home" spy={true} smooth={true} offset={0} duration={500} className='link active'>HOME</Link>
+                            <Link to="home" spy={true} smooth={true} offset={0} duration={500} className='link'>HOME</Link>
                         </li>
                         <li className="list--item">
                             <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='link'>PROJECTS</Link>
