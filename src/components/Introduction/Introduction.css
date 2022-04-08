@@ -21,41 +21,24 @@
     color: gray;
 }
 
-.btn-primary {
+.btn--container {
+    margin-top: 4rem
+}
+
+.btn--primary {
     padding: 2rem 6rem;
     background-color: var(--clr--btn-primary);
-    font-weight: bold;
-    margin-top: 2rem;
-    transition: 0.5s;
-    position: relative;
+    transition: all 0.5s ease-out;
     font-size: 1.6rem;
     letter-spacing: 1px;
     font-weight: 500;
     cursor: pointer;
-}
-
-.btn-primary a {
     color: var(--clr--white);
-    font-weight: 500;
+    border-radius: 5px;
 }
 
-.btn-primary::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid var(--clr--btn-primary);
-    transition: top, left, right, bottom, .1s ease-in-out;
-}
-
-.btn-primary:hover::before,
-.btn-primary:focus::before {
-    top: calc(2px * -2);
-    left: calc(2px * -2);
-    right: calc(2px * -2);
-    bottom: calc(2px * -2);
+.btn--primary:hover {
+    box-shadow: inset 300px 0px 0px 0px rgba(0, 0, 0, .225);
 }
 
 .scroll_down {
