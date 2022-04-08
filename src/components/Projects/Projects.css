@@ -49,6 +49,7 @@
 .project--image {
     max-width: 30rem;
     border-radius: 0.5rem;
+    display: block;
 }
 
 @media screen and (max-width: 1024px) {
