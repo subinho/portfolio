@@ -2,8 +2,7 @@ import React from 'react'
 import './Introduction.css'
 import img from '../../images/intro-image.svg'
 import Sidebar from '../Sidebar/Sidebar'
-import { BsGithub, BsLinkedin, BsMessenger, BsWhatsapp} from 'react-icons/bs'
-import { AiOutlineMail } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 const Introduction = () => {
   return (
@@ -16,7 +15,10 @@ const Introduction = () => {
           <h3>Hello, I'm</h3>
           <h1>ŠTĚPÁN ŠUBRT</h1>
           <p>WEB DEVELOPER</p>
-          <button className="btn-primary"><a href='#projects'>PROJECTS</a></button>
+          <div className='btn--container'>
+            <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='btn--primary'>PROJECTS</Link>
+          </div>
+
         </div>
           <div className='scroll_down'></div>
     </section>
