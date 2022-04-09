@@ -2,6 +2,7 @@
 :root {
   --clr--text-primary: #000;
   --clr--text-secondary: #333333;
+  --clr--text-anchor: #000;
   --clr--white: #fff;
   --clr--background-primary: #fff;
   --clr--background-secondary: rgba(0,0,0, .1);
@@ -34,6 +35,10 @@ html h2 {
     font-size: clamp(1.5rem, 6vw, 3rem);
     margin-bottom: 6rem;
     font-weight: 500;
+}
+
+a {
+  color: var(--clr--text-anchor)
 }
 
 .full_page {

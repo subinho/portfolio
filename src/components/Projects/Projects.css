@@ -34,7 +34,6 @@
 .project--links a {
     padding: .3rem .5rem;
     border: 1px solid var(--clr--btn-primary);
-    color: var(--clr--text-primary);
     font-weight: 500;
     margin-right: 2rem;
     font-size: 1.6rem;

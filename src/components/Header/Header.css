@@ -19,13 +19,11 @@
     margin-right: 4rem;
     font-size: 1.6rem;
     text-transform: uppercase;
-    color: var(--clr--text-primary);
     cursor: pointer;
     font-weight: 500;
 }
 
 .link {
-    color: var(--clr--text-primary);    
     position: relative;
     padding: 1rem;
 }
