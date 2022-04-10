@@ -2,7 +2,6 @@
 :root {
   --clr--text-primary: #000;
   --clr--text-secondary: #333333;
-  --clr--text-anchor: #000;
   --clr--white: #fff;
   --clr--background-primary: #fff;
   --clr--background-secondary: rgba(0,0,0, .1);
@@ -38,11 +37,7 @@ html h2 {
 }
 
 a {
-  color: var(--clr--text-anchor)
-}
-
-.full_page {
-  height: 100vh;
+  color: var(--clr--text-primary)
 }
 
 .padd_page {
@@ -53,4 +48,10 @@ a {
   max-width: 120rem;
   margin: 0 auto;
   width: 90%;
+}
+
+.dark {
+  --clr--text-primary: #fff;
+  --clr--text-secondary: #333333;
+  --clr--background-primary: #121212;
 }
