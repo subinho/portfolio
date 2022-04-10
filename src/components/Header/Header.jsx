@@ -58,6 +58,10 @@ const Header = () => {
                             <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='link'>CONTACT</Link>
                         </li>
                         <div className="animation"></div>
+                        <label>
+                            <input type='checkbox'onClick={toggleTheme} />
+                            <span class='check' />
+                        </label>
                     </ul>
                 }
                     <button onClick={toggleNav} className="btn-mobile"><AiOutlineMenu size='2em'/></button>
