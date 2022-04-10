@@ -1,4 +1,5 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, {useState, useEffect, useRef, useContext } from 'react'
+import { ThemeContext } from '../../App'
 import './Header.css'
 import { Link } from 'react-scroll'
 import { AiOutlineMenu } from 'react-icons/ai'
@@ -6,6 +7,8 @@ import { AiOutlineMenu } from 'react-icons/ai'
 const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+    const { darkTheme, toggleTheme } = useContext(ThemeContext)
 
     let navbarRef = useRef();
 
@@ -39,7 +42,7 @@ const Header = () => {
   return (
       <header>
         <section>
-            <nav ref={navbarRef} className='navbar'>
+            <nav ref={navbarRef} className={darkTheme ? 'navbar dark' : 'navbar'}>
                 { (toggleMenu || screenWidth > 1024) &&
                     <ul className="navbar--list">
                         <li className="list--item">

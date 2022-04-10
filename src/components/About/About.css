@@ -1,3 +1,8 @@
+.about {
+    background-color: var(--clr--background-primary);
+    color: var(--clr--text-primary)
+}
+
 .about--container {
     display: grid;
     grid-template-columns: repeat(2,1fr);

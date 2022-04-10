@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--clr--background-primary);
+    color: var(--clr--text-primary);
+    height:100vh;
 }
 
 .introduction--main h1 {

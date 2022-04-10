@@ -1,9 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef, useContext } from 'react'
+import { ThemeContext } from '../../App';
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-
+  const { darkTheme } = useContext(ThemeContext)
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,7 +22,7 @@ const Contact = () => {
 
 
   return (
-      <section className='contact padd_page' id='contact'>
+      <section className={darkTheme ? 'contact padd_page dark' : 'contact padd_page'} id='contact'>
           <div className="content_container">
               <h2>Contact</h2>
 

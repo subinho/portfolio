@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../../App'
 import './About.css'
 
 const About = () => {
+    const { darkTheme } = useContext(ThemeContext)
+
   return (
-      <section className='about padd_page' id='about'>
+      <section className={darkTheme ? 'about padd_page dark' : 'about padd_page'} id='about'>
           <div className='content_container'>
             <h2>ABOUT ME</h2>
             <div className="about--container">
