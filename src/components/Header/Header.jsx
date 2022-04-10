@@ -46,21 +46,21 @@ const Header = () => {
                 { (toggleMenu || screenWidth > 1024) &&
                     <ul className="navbar--list">
                         <li className="list--item">
-                            <Link to="home" spy={true} smooth={true} offset={0} duration={500} className='link'>HOME</Link>
+                            <Link to="home" spy={true} smooth={true} offset={0} duration={500} className='link' onClick={screenWidth < 1024 && toggleNav}>HOME</Link>
                         </li>
                         <li className="list--item">
-                            <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='link'>PROJECTS</Link>
+                            <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='link' onClick={screenWidth < 1024 && toggleNav}>PROJECTS</Link>
                         </li>
                         <li className="list--item">
-                            <Link to="about" spy={true} smooth={true} offset={50} duration={500} className='link'>ABOUT</Link>
+                            <Link to="about" spy={true} smooth={true} offset={50} duration={500} className='link' onClick={screenWidth < 1024 && toggleNav}>ABOUT</Link>
                         </li>
                         <li className="list--item">
-                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='link'>CONTACT</Link>
+                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='link' onClick={screenWidth < 1024 && toggleNav}>CONTACT</Link>
                         </li>
                         <div className="animation"></div>
                         <label>
                             <input type='checkbox'onClick={toggleTheme} />
-                            <span class='check' />
+                            <span className='check' />
                         </label>
                     </ul>
                 }
