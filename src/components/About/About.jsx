@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about--info">
                     <h3>Hello</h3>
                     <div className="about--desc">
-                        <p>My name is Štěpán Šubrt and I am mostly a self-taught Frontend Web Developer. I am focusing on solving problems, creating new websites and developing my knowledge.</p>
+                        <p>My name is Štěpán Šubrt and I am Full-Stack Developer. I am focusing on solving problems, creating new websites and developing my knowledge.</p>
                         <p>I am currently looking for a job and I will be glad to hear from you.</p>
                     </div>
                 </div>
@@ -24,11 +24,13 @@ const About = () => {
                     <div className="about--experience">
                         <p>HTML</p>
                         <p>CSS</p>
+                        <p>SCSS</p>
                         <p>JavaScript</p>
                         <p>React</p>
                         <p>Redux</p>
                         <p>Node</p>
                         <p>MySQL</p>
+                        <p>Firebase</p>
                         <p>Git</p>
                         <p>GitHub</p>
                         <p>Python</p>
