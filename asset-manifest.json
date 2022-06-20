@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4484fdd7.css",
+    "main.js": "/portfolio/static/js/main.e637b090.js",
+    "static/media/quizapp.png": "/portfolio/static/media/quizapp.f912d530b3e317210a92.png",
+    "static/media/tenzies.png": "/portfolio/static/media/tenzies.627128190edc1d00c6a9.png",
+    "static/media/todoapp.png": "/portfolio/static/media/todoapp.bd6ceacc142944a9afdc.png",
+    "static/media/intro-image.svg": "/portfolio/static/media/intro-image.f2b58f9a07f3dded8aa806514d543702.svg",
+    "index.html": "/portfolio/index.html",
+    "main.4484fdd7.css.map": "/portfolio/static/css/main.4484fdd7.css.map",
+    "main.e637b090.js.map": "/portfolio/static/js/main.e637b090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4484fdd7.css",
+    "static/js/main.e637b090.js"
+  ]
+}
