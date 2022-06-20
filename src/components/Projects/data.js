@@ -1,40 +1,24 @@
-import img from '../../images/coming-soon.jpeg'
+import todoImg from '../../images/todoapp.png'
+import quizImg from '../../images/quizapp.png'
+import tenziesImg from '../../images/tenzies.png'
 
 export default [
     {
-        image: img,
+        image: quizImg,
         title: 'Quiz App',
-        github: '#',
-        live: '#'
+        github: 'https://github.com/subinho/quiz-app',
+        live: 'https://subinho.github.io/quiz-app/'
     },
     {
-        image: img,
-        title: 'Quiz App',
-        github: '#',
-        live: '#'
+        image: tenziesImg,
+        title: 'Tenzies App',
+        github: 'https://github.com/subinho/tenzies-app',
+        live: 'https://subinho.github.io/tenzies-app/'
     },
     {
-        image: img,
-        title: 'Quiz App',
-        github: '#',
-        live: '#'
-    },
-    {
-        image: img,
-        title: 'Quiz App',
-        github: '#',
-        live: '#'
-    },
-    {
-        image: img,
-        title: 'Quiz App',
-        github: '#',
-        live: '#'
-    },
-    {
-        image: img,
-        title: 'Quiz App',
-        github: '#',
-        live: '#'
+        image: todoImg,
+        title: 'Todo App',
+        github: 'https://github.com/subinho/todo-app',
+        live: 'https://subinho.github.io/todo-app/'
     }
 ]
