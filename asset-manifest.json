@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/stepansubrt.dev/static/css/main.4484fdd7.css",
-    "main.js": "/stepansubrt.dev/static/js/main.dd8155e3.js",
-    "static/media/quizapp.png": "/stepansubrt.dev/static/media/quizapp.f912d530b3e317210a92.png",
-    "static/media/tenzies.png": "/stepansubrt.dev/static/media/tenzies.627128190edc1d00c6a9.png",
-    "static/media/todoapp.png": "/stepansubrt.dev/static/media/todoapp.bd6ceacc142944a9afdc.png",
-    "static/media/intro-image.svg": "/stepansubrt.dev/static/media/intro-image.f2b58f9a07f3dded8aa806514d543702.svg",
-    "index.html": "/stepansubrt.dev/index.html",
-    "main.4484fdd7.css.map": "/stepansubrt.dev/static/css/main.4484fdd7.css.map",
-    "main.dd8155e3.js.map": "/stepansubrt.dev/static/js/main.dd8155e3.js.map"
+    "main.css": "/static/css/main.4484fdd7.css",
+    "main.js": "/static/js/main.ee334989.js",
+    "static/media/quizapp.png": "/static/media/quizapp.f912d530b3e317210a92.png",
+    "static/media/tenzies.png": "/static/media/tenzies.627128190edc1d00c6a9.png",
+    "static/media/todoapp.png": "/static/media/todoapp.bd6ceacc142944a9afdc.png",
+    "static/media/intro-image.svg": "/static/media/intro-image.f2b58f9a07f3dded8aa806514d543702.svg",
+    "index.html": "/index.html",
+    "main.4484fdd7.css.map": "/static/css/main.4484fdd7.css.map",
+    "main.ee334989.js.map": "/static/js/main.ee334989.js.map"
   },
   "entrypoints": [
     "static/css/main.4484fdd7.css",
-    "static/js/main.dd8155e3.js"
+    "static/js/main.ee334989.js"
   ]
 }
